@@ -2,7 +2,7 @@ name: Publicando no Dockerhub
 run-name: PUBLICANDO NO DOCKERHUB
 on:
     push:
-        branches: [ main ]
+        branches: [ master ]
 jobs:
     test_job:
         runs-on: ubuntu-latest

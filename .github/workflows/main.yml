@@ -1,6 +1,5 @@
 name: Publicando no Dockerhub
-run-name: PUBLICANDO NO DOCKERHUB
-on: [ push ]
+on: [push]
 jobs:
     test_job:
         runs-on: ubuntu-latest
